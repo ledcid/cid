@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background: #1f1e1e;
+    color: var(--cor-do-menu-fundo);
+    text-align: center;
+    padding: 1em 2em;
+    margin: 10px;
+    border-radius: 10px;
+}
+.banner__titulo{
+    font-size: 22px;
+    font-weight: 700;
+}
+.banner__pesquisa{
+    background-color: transparent;
+    border: 1px solid var(--cor-de-fundo);
+    color: white;
+    border-radius: 24px;
+    width: 100%;
+    padding: 1em;
+    margin: 8px;
+}
+.banner__pesquisa::placeholder{
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #f5f5f5;
+}

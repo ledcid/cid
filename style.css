@@ -1,0 +1,39 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("carrossel.css");
+
+:root{
+    --cor-de--fundo: #0e0c0c;
+    --cor-do-menu: rgba (252, 255, 250, 0.797);
+    --titulo: #070202;
+    --cor-do-menu-fundo: #e1e1e1;
+    --link-1: #880822;
+    --link-2: #887c0d;
+    --link-3: #087508;
+    --fonte-principal: "Fasthand";
+}
+.body{
+    background-color: var(--cor-de--fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+.gallery{
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+.container__grande{
+    aspect-ratio: 9/16;
+    min-width: 0;
+    flex: 1 1  10px;
+    object-fit: cover;
+    opacity: .7;
+    transition: .5s;
+    margin: 2px 2px;
+    border: rgb(44, 4, 4) solid;
+}
+.container__grande:hover{
+    flex: 1 1 200px;
+    opacity: 1;
+}
